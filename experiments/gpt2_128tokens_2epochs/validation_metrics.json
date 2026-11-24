@@ -1,0 +1,12 @@
+{
+  "experiment": "GPT-2 / 128 tokens / 2 epochs",
+  "max_length": 128,
+  "epochs": 2,
+  "training_samples": 8320,
+  "validation_samples": 2084,
+  "accuracy": 0.7557581573896354,
+  "f1_macro": 0.7483804661123129,
+  "validation_loss": 0.6770718097686768,
+  "training_seconds": 334.10247978600023,
+  "saved_model_path": "/content/automotive_cp5403_outputs/model/gpt2_vehicle_complaints"
+}

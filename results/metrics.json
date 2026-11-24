@@ -1,0 +1,42 @@
+{
+  "dataset": "vic35get/nhtsa_complaints_dataset",
+  "dataset_revision": "943738a6baf3e04027da6c199605782342f819b3",
+  "training_samples": 8320,
+  "validation_samples": 2084,
+  "test_samples": 2074,
+  "selected_model": "GPT-2 Experiment 3",
+  "max_tokens": 256,
+  "training_epochs": 5,
+  "trainable_parameters": 21268992,
+  "baseline_validation": {
+    "accuracy": 0.8426103646833013,
+    "precision_macro": 0.8412373181859131,
+    "recall_macro": 0.842643022129959,
+    "f1_macro": 0.841444086185752
+  },
+  "gpt2_validation": {
+    "experiment": "GPT-2 / 256 tokens / up to 5 epochs / 3 blocks",
+    "max_length": 256,
+    "max_epochs": 5,
+    "trainable_parameters": 21268992,
+    "training_samples": 8320,
+    "validation_samples": 2084,
+    "accuracy": 0.8594049904030711,
+    "f1_macro": 0.8543783343895661,
+    "validation_loss": 0.4164372980594635,
+    "training_seconds": 1386.6426438429999,
+    "best_checkpoint": "/content/automotive_cp5403_outputs/experiments/gpt2_256tokens_5epochs_3blocks/checkpoints/checkpoint-2600"
+  },
+  "baseline_test": {
+    "accuracy": 0.7213114754098361,
+    "precision_macro": 0.5261964937946935,
+    "recall_macro": 0.8018745260580153,
+    "f1_macro": 0.5686112255064796
+  },
+  "gpt2_test": {
+    "accuracy": 0.6610414657666345,
+    "precision_macro": 0.49892542858233,
+    "recall_macro": 0.8177521453151282,
+    "f1_macro": 0.53966565192111
+  }
+}

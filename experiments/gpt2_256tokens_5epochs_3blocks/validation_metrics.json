@@ -1,0 +1,13 @@
+{
+  "experiment": "GPT-2 / 256 tokens / up to 5 epochs / 3 blocks",
+  "max_length": 256,
+  "max_epochs": 5,
+  "trainable_parameters": 21268992,
+  "training_samples": 8320,
+  "validation_samples": 2084,
+  "accuracy": 0.8594049904030711,
+  "f1_macro": 0.8543783343895661,
+  "validation_loss": 0.4164372980594635,
+  "training_seconds": 1386.6426438429999,
+  "best_checkpoint": "/content/automotive_cp5403_outputs/experiments/gpt2_256tokens_5epochs_3blocks/checkpoints/checkpoint-2600"
+}

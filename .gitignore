@@ -1,0 +1,26 @@
+# Raw source-derived complaint narratives and private downloaded data
+/data/
+**/train_full.csv
+**/validation.csv
+**/test.csv
+*raw_complaints*
+# Large weights, trainers and local checkpoints
+**/checkpoints/
+**/model.safetensors
+**/*.bin
+**/*.pt
+**/*.pth
+**/*.ckpt
+**/optimizer.pt
+**/scheduler.pt
+**/pytorch_model.bin
+CP5403_Final_GPT2_Experiment3_Model.zip
+# Local experiments and caches
+/automotive_cp5403_outputs/
+/content/
+/.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.env
+.env.*
+.DS_Store
